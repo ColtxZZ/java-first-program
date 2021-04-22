@@ -5,10 +5,10 @@ import java.text.DecimalFormat;
 public class MortgageCalculator {
     private long loanAmount;
     private int termInYears;
-    private  float annualRate;
+    private float annualRate;
     private double monthLyPayment;
 
-    public  MortgageCalculator(long loanAmount, int termInYears, float annualRate) {
+    public MortgageCalculator(long loanAmount, int termInYears, float annualRate) {
         this.loanAmount = loanAmount;
         this.termInYears = termInYears;
         this.annualRate = annualRate;
